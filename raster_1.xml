@@ -1,0 +1,23 @@
+<GDAL_WMS>
+  <Service name="WMS">
+    <Version>1.3.0</Version>
+    <ServerUrl>https://cityimg.capetown.gov.za/erdas-iws/ogc/wms/GeoSpatial%20Datasets?SERVICE=WMS&amp;dpiMode=7&amp;styles</ServerUrl>
+    <Layers>Aerial%20Imagery_Aerial%20Imagery%202022Jan</Layers>
+    <CRS>EPSG:3857</CRS>
+    <ImageFormat>image/png</ImageFormat>
+    <Transparent>FALSE</Transparent>
+    <BBoxOrder>xyXY</BBoxOrder>
+  </Service>
+  <DataWindow>
+    <UpperLeftX>2045368.198201999999583</UpperLeftX>
+    <UpperLeftY>-4029818.862486999947578</UpperLeftY>
+    <LowerRightX>2046288.497835000045598</LowerRightX>
+    <LowerRightY>-4030979.565241000149399</LowerRightY>
+    <SizeX>11503</SizeX>
+    <SizeY>14508</SizeY>
+  </DataWindow>
+  <BandsCount>3</BandsCount>
+  <BlockSizeX>1024</BlockSizeX>
+  <BlockSizeY>1024</BlockSizeY>
+  <OverviewCount>20</OverviewCount>
+</GDAL_WMS>
